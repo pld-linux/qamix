@@ -1,5 +1,5 @@
 Summary:	Configurable mixer for ALSA
-Summary(pl):	Konfigurowalny mixer dla ALSA
+Summary(pl):	Konfigurowalny mikser dla ALSA
 Name:		qamix
 Version:	0.0.4
 Release:	1
@@ -10,8 +10,8 @@ Source0:	ftp://ftp.suse.com/pub/people/mana/%{name}-%{version}.tar.bz2
 Source1:	%{name}.desktop
 Patch0:		%{name}-paths_and_optflags.patch
 URL:		http://www.suse.de/~mana/kalsatools.html
-BuildRequires:	qt-devel >= 3.0.5
 BuildRequires:	alsa-lib-devel >= 0.9.0
+BuildRequires:	qt-devel >= 3.0.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -24,7 +24,7 @@ Any number of MIDI events can be bound to any mixer control.
 QAMix jest konfigurowalnym mikserem dla ALSA. Opis GUI jest
 zdefiniowany w pliku XML. Predefiniowane ustawienia dla standardu
 AC 97 i kart Soundblaster Live! s± dostarczone wraz z pakietem.
-QAMix mo¿e byæ kontrolowany poprzez MIDI. Dowolna ilo¶æ zdarzeñ
+QAMix mo¿e byæ kontrolowany poprzez MIDI. Dowolna liczba zdarzeñ
 MIDI mo¿e byæ przydzielona do jakichkolwiek kontrolerów miksera.
 
 %prep
