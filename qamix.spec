@@ -39,9 +39,9 @@ MIDI mo¿e byæ przydzielona do jakichkolwiek kontrolerów miksera.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/qamix,%{_applnkdir}/Multimedia}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/qamix,%{_desktopdir}}
 
-install -c %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Multimedia
+install -c %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install -c qamix $RPM_BUILD_ROOT%{_bindir}
 install -c *.xml $RPM_BUILD_ROOT%{_datadir}/qamix/
 
@@ -54,4 +54,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %dir %{_datadir}/%{name}
 %{_datadir}/%{name}/*.xml
-%{_applnkdir}/Multimedia/%{name}.desktop
+%{_desktopdir}/%{name}.desktop
