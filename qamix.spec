@@ -28,7 +28,7 @@ QAMix mo¿e byæ kontrolowany poprzez MIDI. Dowolna liczba zdarzeñ
 MIDI mo¿e byæ przydzielona do jakichkolwiek kontrolerów miksera.
 
 %prep
-%setup -q 
+%setup -q
 %patch0 -p1
 
 %build
