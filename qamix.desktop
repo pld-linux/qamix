@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=QAMix
+Name[pl]=QAMix
+Comment=Configurable ALSA mixer
+Comment[pl]=Konfigurowalny mikser dla ALSA
+Exec=/usr/bin/qamix
+Icon=
+Terminal=false
+Type=Application
+Categories=Application;AudioVideo;
+# vi: encoding=utf-8
