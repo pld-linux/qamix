@@ -8,5 +8,5 @@ Exec=/usr/bin/qamix
 Icon=
 Terminal=false
 Type=Application
-Categories=Application;AudioVideo;
+Categories=AudioVideo;Mixer;
 # vi: encoding=utf-8
