@@ -1,0 +1,25 @@
+diff -aurN qamix-0.0.4.orig/make_qamix qamix-0.0.4/make_qamix
+--- qamix-0.0.4.orig/make_qamix	2003-07-01 16:55:45.000000000 +0200
++++ qamix-0.0.4/make_qamix	2003-07-26 01:11:00.000000000 +0200
+@@ -1,7 +1,7 @@
+-QT_BASE_DIR=/usr/lib/qt3
++QT_BASE_DIR=/usr
+ QT_LIB_DIR=$(QT_BASE_DIR)/lib
+ QT_BIN_DIR=$(QT_BASE_DIR)/bin
+-QT_INCLUDE_DIR=$(QT_BASE_DIR)/include
++QT_INCLUDE_DIR=$(QT_BASE_DIR)/include/qt
+ X11_LIB_DIR=/usr/X11R6/lib
+ X11_INCLUDE_DIR=/usr/X11R6/include
+ 
+@@ -31,9 +31,9 @@
+ 	midicheckbox.o midicheckbox.moc.o \
+ 	midicombobox.o midicombobox.moc.o \
+ 	-L$(QT_LIB_DIR) -L$(X11_LIB_DIR) -L/usr/local/lib \
+-	-lqt-mt -lasound -lm
++	-lqt-mt -lasound -lm $(LDFLAGS)
+ 
+-CXXFLAGS=-I$(QT_INCLUDE_DIR) -I$(X11_INCLUDE_DIR) -I. -O2 -g -Wall
++CXXFLAGS=-I$(QT_INCLUDE_DIR) -I$(X11_INCLUDE_DIR) -I. -g -Wall $(OPTFLAGS)
+ 
+ gui.o: gui.cpp gui.h hctldata.h hctl_element.h hctl_slider.h hctl_checkbox.h hctl_combobox.h \
+ 	midicontrollerlist.h midicontroller.h
