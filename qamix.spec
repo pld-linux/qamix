@@ -1,12 +1,12 @@
 Summary:	Configurable mixer for ALSA
 Summary(pl):	Konfigurowalny mikser dla ALSA
 Name:		qamix
-Version:	0.0.7b
+Version:	0.0.7e
 Release:	1
 License:	GPL v2
 Group:		X11/Applications/Sound
 Source0:	ftp://ftp.suse.com/pub/people/mana/%{name}-%{version}.tar.bz2
-# Source0-md5:	1a5632d9ed92090aa3003dd888bd96f6
+# Source0-md5:	e902774238b57859e0ff695771821b7b
 Source1:	%{name}.desktop
 Patch0:		%{name}-paths_and_optflags.patch
 URL:		http://www.suse.de/~mana/kalsatools.html
