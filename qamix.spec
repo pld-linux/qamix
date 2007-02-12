@@ -1,5 +1,5 @@
 Summary:	Configurable mixer for ALSA
-Summary(pl):	Konfigurowalny mikser dla ALSA
+Summary(pl.UTF-8):   Konfigurowalny mikser dla ALSA
 Name:		qamix
 Version:	0.0.7e
 Release:	2
@@ -20,12 +20,12 @@ in an XML file. Default interfaces for standard AC 97 cards and
 Soundblaster Live! are provided. QAMix can be controlled via MIDI.
 Any number of MIDI events can be bound to any mixer control.
 
-%description -l pl
+%description -l pl.UTF-8
 QAMix jest konfigurowalnym mikserem dla ALSA. Opis GUI jest
 zdefiniowany w pliku XML. Predefiniowane ustawienia dla standardu
-AC 97 i kart Soundblaster Live! s± dostarczone wraz z pakietem.
-QAMix mo¿e byæ kontrolowany poprzez MIDI. Dowolna liczba zdarzeñ
-MIDI mo¿e byæ przydzielona do jakichkolwiek kontrolerów miksera.
+AC 97 i kart Soundblaster Live! sÄ… dostarczone wraz z pakietem.
+QAMix moÅ¼e byÄ‡ kontrolowany poprzez MIDI. Dowolna liczba zdarzeÅ„
+MIDI moÅ¼e byÄ‡ przydzielona do jakichkolwiek kontrolerÃ³w miksera.
 
 %prep
 %setup -q
