@@ -1,5 +1,5 @@
 Summary:	Configurable mixer for ALSA
-Summary(pl.UTF-8):   Konfigurowalny mikser dla ALSA
+Summary(pl.UTF-8):	Konfigurowalny mikser dla ALSA
 Name:		qamix
 Version:	0.0.7e
 Release:	2
