@@ -11,7 +11,7 @@ Source1:	%{name}.desktop
 Patch0:		%{name}-paths_and_optflags.patch
 URL:		http://www.suse.de/~mana/kalsatools.html
 BuildRequires:	alsa-lib-devel >= 0.9.0
-BuildRequires:	qt-devel >= 3.0.5
+BuildRequires:	qt-devel >= 3:3.0.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
