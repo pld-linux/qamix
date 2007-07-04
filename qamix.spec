@@ -5,11 +5,11 @@ Version:	0.0.7e
 Release:	2
 License:	GPL v2
 Group:		X11/Applications/Sound
-Source0:	ftp://ftp.suse.com/pub/people/mana/%{name}-%{version}.tar.bz2
+Source0:	http://dl.sourceforge.net/alsamodular/%{name}-%{version}.tar.bz2
 # Source0-md5:	e902774238b57859e0ff695771821b7b
 Source1:	%{name}.desktop
 Patch0:		%{name}-paths_and_optflags.patch
-URL:		http://www.suse.de/~mana/kalsatools.html
+URL:		http://alsamodular.sourceforge.net/
 BuildRequires:	alsa-lib-devel >= 0.9.0
 BuildRequires:	qt-devel >= 3:3.0.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
